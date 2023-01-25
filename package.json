@@ -4,7 +4,7 @@
   "description": "## Description:",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "node server.js"
   },
   "repository": {
@@ -20,5 +20,8 @@
   "homepage": "https://github.com/AlissaCohan18/zookeeper#readme",
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.4.0"
   }
 }
